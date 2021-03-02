@@ -42,3 +42,4 @@ if (vidas >= 0 and numeroingresado==numeroingresado):
     print (f"Te quedaron {vidas} vidas")
 else:
     print (MENSAJE_PERDER, "el número era el",numerooculto)
+    pri (vidas)
