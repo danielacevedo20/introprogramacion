@@ -33,8 +33,8 @@ print ("Vamos a calcular un exponente")
 numeroA = int (input(mensaje_numeroA))
 numeroB = int (input(mensaje_numeroB))
 
-def funcion (numeroA = 1, numeroB=1):
-    exponente = numeroA**numeroB 
+def funcion (base = 1, exponente=1):
+    exponente = base**exponente
     return exponente
 linedesing2 (10,"♥")
 resultado = funcion ()
