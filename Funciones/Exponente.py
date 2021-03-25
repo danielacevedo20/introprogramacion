@@ -39,3 +39,5 @@ def funcion (base = 1, exponente=1):
 linedesing2 (10,"♥")
 resultado = funcion ()
 print (funcion (numeroA,numeroB))
+
+
