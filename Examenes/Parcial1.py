@@ -14,7 +14,7 @@ numeros = calculadora(2,3,2)
 print (numeros)
 
 def MostrarLista (listaA,listaB,listaC):
-    if (len(listaA)==len(listaB) and len(listaB)==len (listaC)):
+    if (len(listaA)==len(listaB) and len(listaB)== len(listaC)):
         for elemento in listaA:
             print (elemento)
         for elemento in listaB:

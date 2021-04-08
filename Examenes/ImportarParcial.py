@@ -1,6 +1,6 @@
 import Parcial1
 #Puntoo1
-numeros = Parcial1.calculadora (2,3,4)
+numeros = Parcial1.calculadora (2,1,1)
 print (numeros)
 ##Punto2
 lista1 = [2,3,4]
@@ -14,5 +14,5 @@ print(area)
 listaEnteros = [2,3,4]
 Parcial1.CalculoLista (listaEnteros)
 #Punto 5
-numero = Parcial1.Fibonacci (13)
+numero = Parcial1.Fibonacci (12)
 print (numero)
