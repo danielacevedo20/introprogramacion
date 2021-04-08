@@ -2,7 +2,7 @@ import Parcial1
 #Puntoo1
 numeros = Parcial1.calculadora (2,3,4)
 print (numeros)
-#Punto2
+##Punto2
 lista1 = [2,3,4]
 lista2 = [5,6,7]
 lista3 = [8,9,10]
