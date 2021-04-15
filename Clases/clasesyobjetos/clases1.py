@@ -21,7 +21,7 @@ class Humano ():
         for i in range (distanciaMetros):
             print (f"Hola soy {self.nombre} y he recorrido {i+1} metros")
     def ahorrarDinero (self):
-        preguntaIngresarMontos ='''S para continuar añadiendo montos
+        preguntaIngresarMontos ='''S para añadir montos
         N para finalizar: '''
         preguntaMonto = "Cuanto vas a ingresar: "
         ingresarMontos = input(preguntaIngresarMontos)
