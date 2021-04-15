@@ -32,7 +32,9 @@ class Humano ():
             ingresarMontos = input(preguntaIngresarMontos)
         return self.dinero
 
-
+class Biomedico (Humano):
+    def mantenimiendo (self, equipo):
+        print (f"Hola soy un ingeniero biomédico y me llamo {self.nombre} y puedo arreglar un {equipo}")
 
 
 humano1 = Humano("Daniel",18,1.83)
@@ -42,3 +44,6 @@ humano1.mostrarAtributos ()
 humano1.recorrerDistancia(5)
 totalAhorrado = humano1.ahorrarDinero()
 print (totalAhorrado)
+ingeniero = Biomedico("Daniel", 18,1.83)
+ingeniero.mostrarAtributos ()
+ingeniero.mantenimiendo("Electrocardiograma")
