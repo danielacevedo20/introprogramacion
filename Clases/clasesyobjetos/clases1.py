@@ -27,7 +27,7 @@ class Humano():
         print(f'''Mi nombre es {self.nombre}
                     Mi estatura es {self.estatura} metros
                     Mi edad es {self.edad} años
-                    Tengo ahorrado {self.dinero} pesos
+                    Tengo ahorrado {self.dinero} peso
         ''')
     def recorrerDistancia(self,distanciaMetros):
         for i in range (distanciaMetros):
