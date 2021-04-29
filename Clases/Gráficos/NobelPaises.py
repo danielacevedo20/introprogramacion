@@ -14,5 +14,4 @@ plt.savefig("ganadoresNobele.png")
 plt.show()
 
 plt.plot(paises,encuesta)
-plt.s
 plt.show()
