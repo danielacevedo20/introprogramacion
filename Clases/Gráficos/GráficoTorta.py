@@ -16,14 +16,15 @@ def etiquetarElementosPorcentuales(sizes, labels, indicador= ' ->'):
     for elemento in sizes :
         acumulador += elemento
     for i in range (len(labels)):
-        pieLabels[i] += indicador+str(sizes[i]/acumulador*100) +'%'
+        porcentaje = round(sizes[i]/acumulador*100,2)
+        pieLabels[i] += indicador+str(porcentaje) +'%'
 
 
 pieExplode = [0,0,0.2,0]
 acumulador = 0
 sizes = [50,25,15,10]
 pieLabels = ['python', 'java', 'dart', 'js',]
-etiquetarElementosPorcentuales(sizes,pieLabels,'☺')
+etiquetarElementosPorcentuales(sizes,pieLabels)
 
 plt.pie(sizes,labels=pieLabels, 
         explode=pieExplode, 
