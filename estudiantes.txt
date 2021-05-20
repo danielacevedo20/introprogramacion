@@ -1,0 +1,3 @@
+Archivos de datos de estudiantes
+Nombre: Daniel Edad: 18 Estatura: 1.84
+Nombre: Daniel Edad: 18 Estatura: 1.84
