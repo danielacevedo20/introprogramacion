@@ -1,0 +1,4 @@
+Manejo de Clientes
+Nombre: ffsdf Descripción: ssf Precio: 2334.0
+Nombre: sdfsd Descripción: sdfs Precio: 324.0
+Nombre: sdfsdf Descripción: sfdsf Precio: 2342.0
