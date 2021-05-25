@@ -7,7 +7,9 @@ while(isCorrectInfo ==False):
     parrafo = input("Ingrese un parrafo y termine en punto: ")
     isCorrectInfo= parrafo.endswith(".")
     if isCorrectInfo == True:
-        palabras = parrafo.split()
+        parrafo = parrafo[:-1]
+        parrafo = parrafo.replace(",","")
+        palabras = parrafo.split(" ")
         print(max(palabras, key = len))
         print(min(palabras, key = len))
     else:
