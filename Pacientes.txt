@@ -1,0 +1,5 @@
+Documento referente a los datos del paciente, 
+una breve descripciÃ³n y el precio de su consulta
+Nombre: Juan Descripción: Alzheimer Precio: 200000.0
+Nombre: Pedro Descripción: Parkinson Precio: 120000.5
+Nombre: María Descripción: Epilepsia Precio: 120000.0
